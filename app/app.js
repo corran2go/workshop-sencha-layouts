@@ -93,11 +93,8 @@ Ext.regApplication(
                                 {
                                     // first panel
                                     xtype: 'panel',
-                                    flex: 1,
                                     style: 'background: #b99',
-                                    layout: {
-                                        type: 'hbox'
-                                    },
+                                    layout: 'hbox',
                                     items: [
                                         // place dummy button on the left
                                         {
@@ -120,11 +117,8 @@ Ext.regApplication(
                                 },
                                 { 
                                     xtype: 'panel',
-                                    flex: 1,
                                     style: 'background: #d99',
-                                    layout: {
-                                        type: 'hbox'
-                                    },
+                                    layout: 'hbox',
                                     items: [
                                         {
                                             xtype: 'button',
@@ -143,11 +137,8 @@ Ext.regApplication(
                                 },
                                 { 
                                     xtype: 'panel',
-                                    flex: 1, 
                                     style: 'background: #f99',
-                                    layout: {
-                                        type: 'hbox'
-                                    },
+                                    layout: 'hbox',
                                     items: [
                                         {
                                             xtype: 'button',

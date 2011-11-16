@@ -21,7 +21,7 @@ Ext.regApplication(
                     // place items in rows, filling the whole width
                     layout: {
                         type: 'vbox',
-                        align: 'stretch'
+                        align: 'stretch' // start center end stretch
                     },
                     // add the following items to the panel
                     items: [
@@ -37,7 +37,7 @@ Ext.regApplication(
                                 align: 'stretch'
                             },
                             items: [
-                                { 
+                                {
                                     // use 1/3 width
                                     flex: 1,
                                     style: 'background: #99b',
@@ -96,15 +96,7 @@ Ext.regApplication(
                                     style: 'background: #b99',
                                     layout: 'hbox',
                                     items: [
-                                        // place dummy button on the left
-                                        {
-                                            xtype: 'button',
-                                            // use built-in arroq icons
-                                            iconCls: 'arrow_left',
-                                            iconMask: true,
-                                            ui: 'plain'
-                                        },
-                                        // takes all space in between
+                                        // takes all space
                                         { xtype: 'spacer', html: '1' },
                                         // place dummy button on the right
                                         {
@@ -146,13 +138,7 @@ Ext.regApplication(
                                             iconMask: true,
                                             ui: 'plain'
                                         },
-                                        { xtype: 'spacer', html: '3' },
-                                        {
-                                            xtype: 'button',
-                                            iconCls: 'arrow_right',
-                                            iconMask: true,
-                                            ui: 'plain'
-                                        }
+                                        { xtype: 'spacer', html: '3' }
                                     ]
                                 }
                             ]

@@ -15,7 +15,8 @@ Ext.regApplication(
                         {
                             // create a Toolbar object, short form of 'new Ext.Toolbar()'
                             xtype: 'toolbar',
-                            title: 'Docked Toolbar'
+                            title: 'Docked Toolbar',
+                            dock: 'top' // top bottom left right
                         }
                     ],
                     // place items in rows, filling the whole width
